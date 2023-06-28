@@ -54,7 +54,7 @@ public class ServletUsuarioController extends HttpServlet {
 				msg = "Gravado com sucesso";
 			} else {
 				msg = "Atualizado com sucesso";
-			}
+			}  
 			modelLogin = daoUsuarioRepository.gravarUsuario(modelLogin);
 		}
 
